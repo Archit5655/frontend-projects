@@ -6,8 +6,8 @@ import GridBackGRound from './components/GridBackGRound';
 export default function Home() {
   return (
   <>
- {/* <Gradient/> */}
- <GridBackGRound/>
+ <Gradient/>
+ {/* <GridBackGRound/> */}
  <div></div>
   </>
   );
