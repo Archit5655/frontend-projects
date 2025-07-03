@@ -1,0 +1,2 @@
+ECR-> Elastic container registry where we can push our docker images in the cloud just like docker registry github for (docker images)
+ECS->Elastic Container service where we can deploy the same container
