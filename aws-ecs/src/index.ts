@@ -1,5 +1,6 @@
 import  express from "express";
 import router from "./routes/route";
+// import something from "./routes/sssdv ";
 const PORT = process.env.PORT || 4000;
 const app=express();
 

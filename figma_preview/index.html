@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figma Vector Example</title>
+  <style>
+    /* Simulate the Figma frame/artboard */
+    body {
+      margin: 0;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .frame {
+      position: relative;
+      width: 1440px;  /* Replace with your Figma frame width */
+      height: 1024px; /* Replace with your Figma frame height */
+      background: white;
+      overflow: hidden;
+      border: 1px solid #ccc;
+    }
+
+    /* Vector 1 */
+    .vector-1 {
+      position: absolute;
+      left: 237px;   /* 16.44% of 1440px = ~237px */
+      top: 75px;     /* 7.29% of 1024px = ~75px */
+      width: 966px;  /* 1440 - 237*2 = ~966px */
+      height: 873px; /* 1024 - 75*2 = ~873px */
+
+      background: #6A0202;
+      border: 1px solid #671D1D;
+      transform: matrix(-1, 0, 0, 1, 0, 0); /* horizontal flip */
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <div class="vector-1"></div>
+  </div>
+</body>
+</html>
